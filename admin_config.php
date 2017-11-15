@@ -125,11 +125,11 @@ class smartlook_admin_ui extends e_admin_ui
 			'tab'        => 0,
 		),
 		'pages'            => array(
-			'title'       => LAN_PLUGIN_SMARTLOOK_ADMIN_07,
-			'description' => LAN_PLUGIN_SMARTLOOK_ADMIN_10,
-			'type'        => 'textarea',
-			'data'        => 'str',
-			'tab'         => 0,
+			'title' => LAN_PLUGIN_SMARTLOOK_ADMIN_07,
+			'help'  => LAN_PLUGIN_SMARTLOOK_ADMIN_10,
+			'type'  => 'textarea',
+			'data'  => 'str',
+			'tab'   => 0,
 		),
 		'visibility_roles' => array(
 			'title' => LAN_PLUGIN_SMARTLOOK_ADMIN_12,
@@ -147,7 +147,7 @@ class smartlook_admin_ui extends e_admin_ui
 	{
 		$tp = e107::getParser();
 
-		$this->prefs['account']['description'] = $tp->lanVars(LAN_PLUGIN_SMARTLOOK_ADMIN_05, array(
+		$this->prefs['account']['help'] = $tp->lanVars(LAN_PLUGIN_SMARTLOOK_ADMIN_05, array(
 			'x' => '<a href="https://www.smartlook.com" target="_blank">' . LAN_PLUGIN_SMARTLOOK_ADMIN_06 . '</a>',
 		));
 	}
