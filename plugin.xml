@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Smartlook" lan="LAN_PLUGIN_SMARTLOOK_NAME" version="1.0" date="2017-11-15" compatibility="2.0" installRequired="true">
+    <author name="lonalore" url="https://github.com/lonalore/smartlook"/>
+    <summary lan="LAN_PLUGIN_SMARTLOOK_SUMM">Smartlook tracking system</summary>
+    <description lan="LAN_PLUGIN_SMARTLOOK_DESC">Adds the Smartlook tracking system to your website.</description>
+    <keywords>
+        <word>smartlook</word>
+        <word>analytics</word>
+    </keywords>
+    <category>tools</category>
+    <copyright></copyright>
+    <adminLinks>
+        <link url="admin_config.php" description="" icon128="images/icon_128.png" icon="images/icon_32.png" iconSmall="images/icon_16.png" primary="true">LAN_CONFIGURE</link>
+    </adminLinks>
+    <pluginPrefs>
+        <pref name='account'></pref>
+        <pref name='visibility_pages'>0</pref>
+        <pref name='pages'>e107_admin/*</pref>
+        <pref name='visibility_roles'>0</pref>
+    </pluginPrefs>
+</e107Plugin>
